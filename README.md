@@ -1,4 +1,4 @@
-# Final Project - Turn Based Battle Game
+# Turn Based Battle Game
 > Course: CSCI2020U Software Development and Integration
 
 ## Project Information
