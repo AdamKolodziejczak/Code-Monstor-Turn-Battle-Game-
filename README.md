@@ -50,7 +50,7 @@ battle class at the same time.  We solved this condition using synchronized bloc
 - About.html background image: [Link Here](https://dribbble.com/shots/2303888-Lava-Animation)
 - Helped with randomly generating a unique room code in QueueServer.java: [Link Here](https://ioflood.com/blog/java-uuid/#:~:text=There%20are%20various%20methods%20to,each%20time%20it%20is%20ran.)
 
-## Contribution Report:
+## Contribution:
 
 | Member      | Percentage Contribution| Work Description  |
 | ------------- | ------------- | -------------|
