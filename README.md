@@ -6,7 +6,7 @@
 
 [Project Demo Video Link](https://www.youtube.com/watch?v=eNw2cJE6IRs)
 
-Our team has designed a turn-based player vs player matchmaking game, called Coding Monster Game.  We created 6 different 'monsters' based various
+Our team has designed a turn-based player vs player matchmaking game, called The Code Monster Game.  We created 6 different 'monsters' based various
 different programming languages: C++, C, Java, JavaScript, Rust, Python and Assembly.  Each of the different programming
 languages has different attributes such as their type, health, stamina, defence, attack, accuracy and skills.  Similar
 to this, we added damage types in which each monster falls under - such as Unstructured, Procedural, Object-Oriented, 
