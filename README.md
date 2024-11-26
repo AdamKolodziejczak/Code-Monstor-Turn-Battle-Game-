@@ -2,7 +2,7 @@
 > Course: CSCI2020U Software Development and Integration
 
 ## Project Information
-> Group 9: Grant, Hunter, Kolodziejczak, Jeanes
+> Group: Grant, Hunter, Kolodziejczak, Jeanes
 
 [Project Demo Video Link](https://www.youtube.com/watch?v=eNw2cJE6IRs)
 
