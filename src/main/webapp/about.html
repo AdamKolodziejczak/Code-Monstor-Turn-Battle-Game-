@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>About</title>
+</head>
+<body>
+    <div class="container">
+        <img src="img/lava.gif" alt="Lava Arena About Page">
+        <div class="black-background"></div>
+        <h1 id="aboutTitle">About The Game!</h1>
+        <p id="aboutText">Welcome to the Coding Monster Game!
+            <br><br>
+            The goal of this game is to defeat your opponent by
+            making the enemy team's health go to zero, resulting in their coding monster to "crash" (die). Each player
+            is assigned a team of three coding monsters with various statuses such as health, attack, defence, stamina,
+            accuracy, and various skills unique to each monster. It is up to the user to make the correct decisions,
+            such as skipping a turn to increase stamina or using the correct skills to defeat their opponent.
+            Ultimately, the winner will be the Ultimate Coder with their Coding Language Monsters!
+            <br><br>
+            Within a battle, each monster has HP (health points, amount of damage monster can take before crashing), SP
+            (stamina points, which they spend to use skills), Atk (attack, determines damage of skills), Def (defense,
+            subtracted from the damage of enemy skills) and Acc (accuracy, determines how likely their skills are to hit).
+            They each have a set of five skills, which come with their own set of stats: Atk (added to monster's Atk),
+            Heal (the amount of HP restored by healing skills), Acc (added to monster's Acc), AtkBoost (for skills that
+            increase the monster's Atk), DefBoost (for skills that increase the monster's Def) and Cost (the amount of SP
+            needed to use the skill) and all of these may be viewed by hovering the player's mouse over each skill button.
+            Additionally, each skill and monster has a type, and the damage of a skill will be increased by 20% if used
+            on a monster of the proper type, or decreased by 20% if used on a monster of the wrong type (as can be seen
+            in the Paradigm Affinities chart). During the player's turn, they may switch freely between monsters, and
+            then choose to either use a skill or Rest (which restores 50 SP to their active monster). The game ends when
+            one player is able to reduce the HP of each of the opponent's monsters to 0.
+            <br> <br>
+            Note that the game does not require coding however, monsters are coding related.</p>
+        <button id="buttonAbout" onclick="window.location.href = 'index.html';">Main Page</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,257 @@
+/* Index.html Styles */
+body {
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#button {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1.5% 3%; /* 1.5% padding on top and bottom, 3% on sides*/
+    font-size: 2vw; /* Font-size: viewport width-based */
+    background-color: #007bff;
+    color: white;
+    border: 0.15vw solid black; /* Border thickness: viewport width-based */
+    cursor: pointer;
+    z-index: 1;
+}
+
+#goToAbout{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1.5% 3%; /* 1.5% padding on top and bottom, 3% on sides*/
+    font-size: 2vw; /* Font-size: viewport width-based */
+    background-color: #007bff;
+    color: white;
+    border: 0.15vw solid black; /* Border thickness: viewport width-based */
+    cursor: pointer;
+    z-index: 1;
+}
+
+#title {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1%;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #007bff, #00bfff);
+    text-align: center;
+    font-size: 3vw; /* Font Size: viewport width-based */
+    color: white;
+    border: 0.05em solid black;
+    text-shadow: 0.2vw 0.2vw 0.4vw rgba(0,0,0,0.5); /* Text-Shadow: viewport width-based (stack helped) */
+    z-index: 2;
+}
+
+.black-background{
+    background: black;
+    height: 100%;
+}
+
+#title h1 {
+    padding: 0.5%;
+}
+
+/* Battle.html Styles: */
+.health-bar {
+    width: 200px;
+    height: 20px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.health {
+    height: 100%;
+    background-color: green;
+}
+
+.monster-card {
+    border: 1px solid black;
+    width: min-content;
+    margin: 5px;
+    display: inline-block;
+    transform: scale(0.80);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.65);
+}
+
+.active-monster-card {
+    border: 1px solid black;
+    width: min-content;
+    margin: 5px;
+    display: inline-block;
+    transform: scale(1);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.65);
+}
+
+.monster-container {
+    margin: 5px;
+    color: black;
+}
+
+.team {
+    display: inline-block;
+}
+
+.inline {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.skill {
+    display: inline-block;
+}
+
+.monster-controls {
+}
+
+#lose-button, #buttonAbout {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1.5% 3%; /* 1.5% padding on top and bottom, 3% on sides*/
+    font-size: 2vw; /* Font-size: viewport width-based */
+    background-color: #007bff;
+    color: white;
+    border: 0.15vw solid black; /* Border thickness: viewport width-based */
+    cursor: pointer;
+    z-index: 1;
+}
+
+#aboutTitle{
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1%;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #007bff, #00bfff);
+    text-align: center;
+    font-size: 2.5vw; /* Font Size: viewport width-based */
+    color: white;
+    border: 0.05em solid black;
+    text-shadow: 0.2vw 0.2vw 0.4vw rgba(0,0,0,0.5); /* Text-Shadow: viewport width-based (stack helped) */
+    z-index: 3;
+}
+
+#aboutText{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    padding: 1%;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #007bff, #00bfff);
+    font-size: 1.0em;
+    color: white;
+    border: 0.05em solid black;
+    text-shadow: 0.2vw 0.2vw 0.4vw rgba(0,0,0,0.5); /* Text-Shadow: viewport width-based (stack helped) */
+    z-index: 3;
+}
+
+#buttonAbout {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1.5% 3%; /* 1.5% padding on top and bottom, 3% on sides*/
+    font-size: 0.8em; /* Font-size: viewport width-based */
+    background-color: #007bff;
+    color: white;
+    border: 0.15vw solid black; /* Border thickness: viewport width-based */
+    cursor: pointer;
+    z-index: 1;
+}
+
+#battleBody{
+    background-image: url("../img/cave.gif");
+}
+
+.affinity-image {
+    position: absolute;
+    right: 2%;
+    top: 14%;
+    width: 23%;
+    height: 40%;
+    background: rgba(255, 255, 255, 0.65);
+}
+.paradigm-text {
+    position: absolute;
+    right: 2%;
+    text-align: center;
+    top: 4%;
+    width: 25%;
+    height: 40%;
+    font-size: 2vw;
+    color: white;
+}
+
+#log {
+    width: 30%;
+    height: 30%;
+    display: block;
+    position: absolute;
+    right: 2%;
+    top: 63%;
+    resize: both;
+    overflow: auto;
+}
+
+.white-text {
+    color: white;
+}
+
+/*
+CODE TO PUT TEXT BOX ABOVE IMAGE
+
+.affinity-image {
+    position: absolute;
+    right: 2%;
+    top: 80%;
+    width: 23%;
+    height: 40%;
+    background: rgba(255, 255, 255, 0.65);
+}
+.paradigm-text {
+    position: absolute;
+    right: 2%;
+    text-align: center;
+    top: 70%;
+    width: 25%;
+    height: 40%;
+    font-size: 2vw;
+    color: white;
+}
+
+#log {
+    width: 30%;
+    height: 60%;
+    display: block;
+    position: absolute;
+    right: 2%;
+    top: 4%;
+    resize: both;
+    overflow: auto;
+}
+ */

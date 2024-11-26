@@ -1,0 +1,51 @@
+Frontend:
+    Battle:
+        log
+        health bars
+        Buttons:
+            skill
+        not their turn buttons get disabled
+
+    Queue:
+        Username
+        Pick monsters
+        Button:
+            join queue
+
+-----
+Backend:
+
+BattleServer:
+    Battle
+    User
+
+Battle:
+    Users
+
+User:
+    Monsters
+
+Monster:
+    health
+    stamina
+    skills?
+
+Skill:
+
+
+Battle protocol:
+    server to user:
+        {"type": "start"}
+        {"type": "userid", "id": int}
+        {"type": "player", "name": string, "id": int}
+        {"type": "turn", "player": int}: tells the user it is their turn
+        {"type": "stats", "id": int, "health": int, "stamina": int, "maxHealth": int, "maxStamina": int}: sets a players stats
+        {"type": "log", "message": string}: appends to the log
+        {"type": "monster", "player": int, "id": int, "name": string, "icon": imageUrl}: sets the players character
+        {"type": "gameEnd", "winner": int}
+        {"type": "setActive", "player": int, "monster": int}
+        {"type": "audio", "audio": string}
+
+    user to server:
+        {"type": "skill", "monster": int, "skill": int}: uses a skill
+        {"type": "setActive", "monster": int}
